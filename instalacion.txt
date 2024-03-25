@@ -1,0 +1,17 @@
+npm init -y   // inicio de proyecto, para aplicacion nodejs
+npm i --save-dev nodemon  // se usa para reiniciar servidorn automaticamente al hacer cambio
+
+// se crean los scrip de la aplicacion
+"scripts": {
+    "start": "node .",   // se usa para hacer deploy
+    "dev": "nodemon ."   // para correr en local
+  },
+
+
+  /////////////////////////////////////////////////
+
+  npm i mongoose dotenv  // liobreria de mongodb para conectarla y dotenv para usar variables de entorno
+
+  npm i apollo-server  //   usando la conecciones
+  npm i jsonwebtoken   // usar token para inicio de secion
+  npm i bcryptjs    // para encriptar password
