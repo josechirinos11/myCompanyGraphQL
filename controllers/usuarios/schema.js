@@ -7,7 +7,7 @@ type Token {
   
 
     input UsuarioInput {
-        nombre: String!
+        nombre: String
         email: String!
         password: String!
     }
